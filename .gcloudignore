@@ -1,0 +1,23 @@
+# Ignore virtual environment
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# Temporary vectorstore / files
+vectorstore_*/
+*.tmp
+
+# Git / system files
+.git/
+.gitignore
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
